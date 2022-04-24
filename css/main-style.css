@@ -2876,14 +2876,15 @@ ul.detail_form li a:hover:before {
 }
 
 /*國發揮目標*/
-#creation-page #pt-mini-article-tp5 .pt-main-title-tag {
-    font-size: 1.5rem;
+ .pt-main-title-tag {
+    font-size: 2rem;
     margin: 0;
     padding: 0;
-    color: #007bc1;
+    color: #000;
     border-bottom: 3px solid #dadada;
-    padding: 0 0 15px 0
+    padding: 20px 0 15px 0
 }
+#creation-page{ max-width:90% ; margin: 20px auto; }
 #creation-page #pt-mini-article-tp5 .product-swop-title {
     display: inline-block;
     width: 100%;
@@ -2892,8 +2893,9 @@ ul.detail_form li a:hover:before {
     position: relative
 }
 #creation-page #pt-mini-article-tp5 .product-swop-title .product-swop-title-tag {
-    margin: 0
+    margin: 0; display: flex; align-items: center;
 }
+.goal_title{height: 90px; margin :0 20px; }
 #creation-page #pt-mini-article-tp5 .ct-author {
     color: #FFF;
     font-weight: bold;
@@ -2913,21 +2915,20 @@ ul.detail_form li a:hover:before {
 #creation-page #pt-mini-article-tp5 .ct-author:hover {
     opacity: .9
 }
-#product-sub-page-swop {
-    padding: 30px 0 10px 0;
-    margin: 15px 0 0 0
+.product-page-bk {
+    padding: 30px ;
+    margin: 35px  0; 
+    border: 2px solid #eee;
+    border-radius: 10px;
 }
 #creation-page #pt-mini-article-tp5 #product-sub-page-swop .pr-moretag-sw {
     text-align: left;
     padding: 0 0 0 20px;
-    border-right: 1px solid #d8d8d8;
-    border-left: 1px solid #d8d8d8
 }
 #creation-page #pt-mini-article-tp5 .news-info-con2 {
     display: inline-block;
     width: 100%;
     position: relative;
-    border: 1px solid #d8d8d8;
     padding: 15px 15px 20px 15px;
     border-radius: 10px 10px 0 0;
     border-bottom: 0;
@@ -2945,15 +2946,7 @@ ul.detail_form li a:hover:before {
     padding: 5px;
     float: left
 }
-#creation-page #pt-mini-article-tp5 .news-info-con .standard-light-circle {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 9999px;
-    border: 2px solid #FFF;
-    text-align: center;
-    vertical-align: middle
-}
+
 #creation-page #pt-mini-article-tp5 .news-info-con .standard-light,
 #creation-page #pt-mini-article-tp5 .news-info-con .standard-light-circle {
     background: #c0c0c0
@@ -2997,20 +2990,8 @@ ul.detail_form li a:hover:before {
     padding: 0 0 0 10px;
     vertical-align: middle
 }
-#creation-page #pt-mini-article-tp5 table {
-    border: 0
-}
-#creation-page #pt-mini-article-tp5 table tr th {
-    border: 0;
-    background: #FFF;
-    border-bottom: 2px solid #929292;
-    padding-left: 5px;
-}
-#creation-page #pt-mini-article-tp5 table tr td {
-    border: 0;
-    background: #FFF;
-    border-bottom: 1px solid #ebebeb
-}
+
+
 #creation-page #pt-mini-article-tp5 .ct-author-info-title {
     padding: 15px 0;
     border-bottom: 3px solid #dadada
@@ -3231,7 +3212,6 @@ ul.detail_form li a:hover:before {
     font-weight: normal;
     padding: 15px 50px;
     box-shadow: inherit;
-    background: #formBox;
     border: 1px solid #929292;
     background: 0;
     color: #929292
@@ -3529,39 +3509,12 @@ body #creation-page .sr-list-con-5 .srtag-bk {
     }
 }
 
-#pr-moretag-con-tp5 .pr-moretag-sw a {
-    color: #FFF;
-    width: auto;
-    background: #c0c0c0;
-    border-top: 5px solid #a7a7a7;
-    padding: 5px 50px 10px 50px;
-    margin: 0;
-    position: relative;
-    top: 2px;
-    z-index: 20;
-    display: inline-block;
-}
-#pr-moretag-con-tp5 .pr-moretag-sw .section {
-    background: #FFF;
-    color: #333;
-    border-top: 5px solid #606060;
-    border-left: 1px solid #d8d8d8;
-    border-right: 1px solid #d8d8d8;
-}
+
 .info-html-edit {
     padding: 25px 0;
     line-height: 1.6;
 }
-#product-page-swop .year-edit .news-info-con3 {
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    border: 1px solid #d8d8d8;
-    padding: 15px 15px 20px 15px;
-    background: #f5f5f5;
-    border-radius: 10px;
-    margin: 20px 0;
-}
+
 .expected-list-title {
     background: url(../img/list.png) no-repeat 0 7px;
     background-size: 10px 10px;
@@ -3579,7 +3532,7 @@ body #creation-page .sr-list-con-5 .srtag-bk {
 }
 .news-box {
     padding: 5px 15px;
-    background: #007bc1;
+    background: #109A8A;
     border-radius: 9999px;
     color: #FFF;
     font-size: 0.813rem;
@@ -3606,15 +3559,11 @@ body #creation-page .sr-list-con-5 .srtag-bk {
 }
 #creation-page h3 {
     font-size: 1.17em;
-    font-weight: bold;
-    width: 100%;
+    font-weight: bold; 
     margin: 0 0 15px 0;
 }
 #product-sub-page-swop .info-html-edit {
-    padding: 25px 35px 35px 35px;
-    border-right: 1px solid #d8d8d8;
-    border-left: 1px solid #d8d8d8;
-    border-bottom: 1px solid #d8d8d8;
+    padding: 25px  ;
 }
 .info-html-edit p {
     margin: 15px 0;
@@ -3626,7 +3575,7 @@ body #creation-page .sr-list-con-5 .srtag-bk {
     margin-top: 30px;
 }
 .backlist a {
-    background: #007bc1;
+    background: #109A8A;
     color: #FFF;
     padding: 10px 30px;
     margin: 0 auto;
@@ -3635,3 +3584,60 @@ body #creation-page .sr-list-con-5 .srtag-bk {
     display: inline;
     border-radius: 5px;
 }
+:root {
+    --main-color1: #df7b89;
+    --main-color1-1: #e5233d;
+    --main-color2: #df7b89;
+    --main-color2-1: #e5233d;
+}
+
+
+.color01 .pr-moretag-sw a {background: var(--main-color1); border-top: 5px solid  var(--main-color1-1);}
+.color02 .pr-moretag-sw a {background: var(--main-color2); border-top: 5px solid  var(--main-color2-1);}
+.pr-moretag-sw a {
+    color: #FFF;
+    width: auto;
+    background: #c0c0c0;
+    border-top: 5px solid #a7a7a7;
+    padding: 10px 50px 10px 50px;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    z-index: 20;
+    display: inline-block;
+}
+.color01 .pr-moretag-sw .section {
+    background: #FFF;
+    color: #333;
+    border-top: 5px solid  var(--main-color2);
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+.standard-light-circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    border: 2px solid #FFF;
+    text-align: center;
+    vertical-align: middle;
+}
+#product-page-swop .year-edit .news-info-con3 {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border: 1px solid #d8d8d8;
+    padding: 15px 15px 20px 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.sl-green img {
+    margin-right: 15px;
+ height: 90px;
+}
+ .table_color01{ border: #ccc 1px solid;}
+.info-table-tag .table_color01 th,.info-table-tag .table_color01 td{ padding: 5px 10px;}
+.info-table-tag .table_color01 th{ background-color: #666; color: #fff; }
+.info-table-tag .table_color01 tr:nth-child(odd){ background-color: #eee;}
